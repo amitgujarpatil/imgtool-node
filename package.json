@@ -1,0 +1,28 @@
+{
+  "name": "imgtool-node",
+  "version": "1.0.0",
+  "description": "MCUboot firmware image signing SDK — Node.js port of the Python imgtool",
+  "main": "index.js",
+  "bin": {
+    "imgtool": "./imgtool.js"
+  },
+  "keywords": [
+    "mcuboot",
+    "imgtool",
+    "firmware",
+    "signing",
+    "ecdsa",
+    "rsa",
+    "embedded"
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node tests/imgtool.test.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

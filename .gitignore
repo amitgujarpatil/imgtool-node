@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Private keys — never commit signing keys
+data/*-private-key.pem
+data/private-key.pem
+
+# Generated / signed binaries
+data/*.bin
+data/tampered_*.bin
+data/_test_*.bin
+
+# Test output files
+data/_test_*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
